@@ -29,7 +29,7 @@ exports.createPages = ({boundActionCreators, graphql}) => {
     if (response.errors) {
       return Promise.reject(response.errors)
     }
-    response.data.allMarkdownRemark.edges.forEach(({node }) => {
+    response.data.allMarkdownRemark.edges.forEach(( {node }) => {
       createPage({
         path: node.frontmatter.path,
         component: postTemplate
