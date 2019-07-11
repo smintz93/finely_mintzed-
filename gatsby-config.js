@@ -9,8 +9,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${ __dirname }/src/pages`,
-        name: `pages`
+        path: `${__dirname}/src/pages`,
+        name: `pages`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        whitelist: ["GATSBY_INSTAGRAM_API_KEY", "MY_OTHER_VAR"],
       },
     },
     {
@@ -40,3 +46,5 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
+

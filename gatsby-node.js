@@ -1,5 +1,8 @@
 const path = require('path');
 
+require("dotenv").config({
+  path: `.env.${process.env.GATSBY_INSTAGRAM_API_KEY}`,
+})
 
 // registers our post so we can use those urls
 // using createPages API from gatsby

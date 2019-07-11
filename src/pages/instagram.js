@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+const API_KEY = process.env.GATSBY_INSTAGRAM_API_KEY
+
+// ttps://api.instagram.com/v1/users/self/media/recent/?access_token=11710304357.eff30cd.2e768e7e7e774d7185166f670650383b
 
 class Instagram extends Component {
   constructor(props){
@@ -10,7 +13,10 @@ class Instagram extends Component {
 
   componentWillMount(){
     console.log(" -- Component Will Mount -- ")
+    console.log(" -- API_KEY -- ")
+    console.log(API_KEY);
     this.fetchPhotos();
+
   }
 
   fetchPhotos = () => {
