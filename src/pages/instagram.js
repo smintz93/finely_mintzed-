@@ -11,15 +11,13 @@ class Instagram extends Component {
   constructor(props){
     super(props);
     this.state = {
-      photos: []
+      photos: [],
+      slideCount: 0
     }
   }
 
   componentWillMount(){
     console.log(" -- Component Will Mount -- ")
-    // console.log(" -- API_KEY -- ")
-    // console.log(API_KEY);
-    // console.log(" -- API_KEY -- ")
     this.fetchPhotos();
   }
 
@@ -34,29 +32,23 @@ class Instagram extends Component {
   }
 
   render() {
-    { console.log(this.state.photos) }
-
-
-    const photoList = this.state.photos.map((photo, i) => {
-      return (
-        <div key={photo.id}>
-        
-          <img src={photo.images.standard_resolution.url} alt={photo.caption}/>
-          <div style={{width: '600px', margin: '24px auto', fontStyle: 'italic'}}>
-            {photo.caption !== null ? photo.caption.text : ""}
-          </div>
-        </div>
-      );
-    })
-
-      return (
-        <div>
-          <BackArrow />
-          <NextArrow />
-          {photoList}
-        </div>
-      )
-
+    // { console.log(this.state.photos) }
+    return (
+      <div>
+        <BackArrow />
+          {this.state.photos.map((photo, key) => {
+            return (
+              <div key={photo.id}>
+                <img src={photo.images.standard_resolution.url} alt={photo.caption} />
+                <div style={{width: '600px', margin: '24px auto', fontStyle: 'italic'}}>
+                  {photo.caption !== null ? photo.caption.text : ""}
+                </div>
+              </div>
+            );
+          })}
+        <NextArrow />
+      </div>
+    );
   }
 }
 
