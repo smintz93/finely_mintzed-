@@ -4,7 +4,6 @@ import axios from 'axios';
 import BackArrow from '../components/arrows/backArrow';
 import NextArrow from '../components/arrows/NextArrow';
 
-
 const API_KEY = process.env.GATSBY_INSTAGRAM_API_KEY
 
 class Instagram extends Component {
@@ -31,12 +30,25 @@ class Instagram extends Component {
     })
   }
 
+  nextImage = () => {
+    console.log('Next')
+    this.setState({slideCount: this.state.slideCount +1 })
+  }
+
+  previousImage = () => {
+    console.log('Back')
+    this.setState({ slideCount: this.state.slideCount -1  })
+  }
+
   render() {
     // { console.log(this.state.photos) }
     return (
-      <div>
-        <BackArrow />
+      <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '30px'}}>  
+        {this.state.slideCount !== 0 ? <BackArrow previousImage={this.previousImage}/> : ''}
+       
           {this.state.photos.map((photo, key) => {
+            if(this.state.photos.indexOf(photo) === this.state.slideCount) {
+
             return (
               <div key={photo.id}>
                 <img src={photo.images.standard_resolution.url} alt={photo.caption} />
@@ -45,8 +57,11 @@ class Instagram extends Component {
                 </div>
               </div>
             );
+            }
+            return ''
           })}
-        <NextArrow />
+        {this.state.slideCount !== (this.state.photos.length - 1) ? <NextArrow nextImage={this.nextImage}/> : ''}
+        
       </div>
     );
   }
