@@ -32,36 +32,36 @@ class Instagram extends Component {
 
   nextImage = () => {
     console.log('Next')
-    this.setState({slideCount: this.state.slideCount +1 })
+    this.setState({slideCount: this.state.slideCount + 1 })
   }
 
   previousImage = () => {
     console.log('Back')
-    this.setState({ slideCount: this.state.slideCount -1  })
+    this.setState({ slideCount: this.state.slideCount - 1  })
   }
 
   render() {
     // { console.log(this.state.photos) }
     return (
-      <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '30px'}}>  
+      <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '30px', border: '1px solid black'}}>  
         {this.state.slideCount !== 0 ? <BackArrow previousImage={this.previousImage}/> : ''}
        
           {this.state.photos.map((photo, key) => {
             if(this.state.photos.indexOf(photo) === this.state.slideCount) {
 
             return (
-              <div key={photo.id}>
-                <img src={photo.images.standard_resolution.url} alt={photo.caption} />
-                <div style={{width: '600px', margin: '24px auto', fontStyle: 'italic'}}>
+              <div style={{marginTop: '30px'}}key={photo.id}>
+                <img src={photo.images.standard_resolution.url} alt={photo.caption} 
+                style={{width: '250px'}}/>
+                {/* <div style={{width: '200px', margin: '16px auto', fontSize: '12px',fontStyle: 'italic'}}>
                   {photo.caption !== null ? photo.caption.text : ""}
-                </div>
+                </div> */}
               </div>
             );
             }
             return ''
           })}
         {this.state.slideCount !== (this.state.photos.length - 1) ? <NextArrow nextImage={this.nextImage}/> : ''}
-        
       </div>
     );
   }

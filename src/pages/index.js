@@ -13,14 +13,15 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1>Welcome to the Finely Mintzed Blog</h1>
     <p>Website construction underway...</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div >
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
 
+        <Instagram />
+        {/* <Image /> */}
+      </div>
 
-    
-    <Instagram />
-      {/* <Image /> */}
     </div>
-
+  
     
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
