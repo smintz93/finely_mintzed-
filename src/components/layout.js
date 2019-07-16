@@ -38,15 +38,15 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built by S
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.sammintz.co">Sam Mintz</a>
         </footer>
       </div>
     </>
   )
 }
-
+ 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
