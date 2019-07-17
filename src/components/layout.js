@@ -11,7 +11,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Menu from './menu'
+import SideBar from './SideBar/sidebar'
 import "./layout.css"
+import sideBar from "./SideBar/sidebar";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,6 +30,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Menu />
+      {/* <SideBar /> */}
       <div
         style={{
           margin: `0 auto`,
@@ -38,7 +41,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built by S
+          © {new Date().getFullYear()}, Built by
           {` `}
           <a href="https://www.sammintz.co">Sam Mintz</a>
         </footer>

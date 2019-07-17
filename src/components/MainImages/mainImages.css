@@ -1,0 +1,11 @@
+.imageContainer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.images {
+  border: 1px solid purple;
+
+}

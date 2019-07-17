@@ -1,11 +1,12 @@
 import React from "react"
+import  "./mainImages.css";
 
 const mainImages = () => (
-
-  <div>
-    <h1>This will be four pictures</h1>
+  <div className="imageContainer">
+    <div className="images">1</div>
+    <div className="images">2</div>
+    <div className="images">3</div>
   </div>
-
 )
 
 export default mainImages;
