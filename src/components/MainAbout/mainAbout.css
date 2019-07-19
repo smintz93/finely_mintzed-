@@ -1,3 +1,8 @@
 .aboutContainer {
   border: 1px solid blue;
+  display: flex;
+}
+
+.bio {
+  border: 1px solid green;
 }

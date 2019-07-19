@@ -15,7 +15,12 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1>Welcome to the Finely Mintzed Blog</h1>
     <p>Website construction underway...</p>
-    <div >
+    <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-around'
+        
+    }}>
       <MainImages />
       <MainAbout />
       <div style={{ maxWidth: `400px`, marginBottom: `1.45rem` }}>

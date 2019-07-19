@@ -2,10 +2,10 @@
   border: 1px solid black;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 1.45rem
  
 }
 
 .images {
   border: 1px solid purple;
-
 }

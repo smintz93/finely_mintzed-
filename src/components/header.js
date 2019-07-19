@@ -24,9 +24,10 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          Finely Mintzed
         </Link>
       </h1>
+      <p style={{ margin: 0, color: `white` }}>Paleo ish eats</p>
     </div>
   </header>
 )
