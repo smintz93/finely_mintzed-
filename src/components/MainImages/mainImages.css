@@ -9,3 +9,7 @@
 .images {
   border: 1px solid purple;
 }
+
+img {
+  width: 250px
+}
