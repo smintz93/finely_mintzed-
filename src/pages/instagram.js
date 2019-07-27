@@ -70,7 +70,7 @@ class Instagram extends Component {
             return (
               <div style={{marginTop: '30px'}}key={photo.id}>
                 <img src={photo.images.standard_resolution.url} alt={photo.caption} 
-                style={{width: '350x'}}/>
+                style={{width: '500px', height: '400px'}}/>
                  {/* <div style={{width: '200px', margin: '16px auto', fontSize: '12px',fontStyle: 'italic'}}>
                   {photo.caption !== null ? photo.caption.text : ""}
                 </div>  */}
@@ -79,7 +79,7 @@ class Instagram extends Component {
             }
             return ''
           })}
-        {this.state.slideCount !== (this.state.photos.length - 1) ? <NextArrow nextImage={this.nextImage}/> : ''}
+        {this.state.slideCount !== (this.state.photos.length - 1) ? <NextArrow style={{margin: '10px'}}nextImage={this.nextImage}/> : ''}
       </div>
     );
   }
