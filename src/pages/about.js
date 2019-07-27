@@ -8,15 +8,26 @@ const About = () => (
     <p>Website construction underway...</p>
     <p>image...</p>
     <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum.
+      Hello everyone! My name is Johanna Mintz and I am so excited to welcome
+      you to my blog, FinelyMintzed. I am originally from Chicago, but currently
+      living in Washington, DC, after graduating from Georgetown University in
+      2018. While I enjoyed cooking throughout college, my love for cooking and
+      crafting new recipes in the kitchen has sky-rocketed in my post-grad life.
+      My favorite way to unwind after work is to head straight to the kitchen
+      and start prepping dinner (or a post-dinner treat). My love for all thing
+      paleo started in high school when my Mom and I thought we would try out
+      10-day paleo plan. It was not exactly love at first bite 😉, as our bodies
+      had to adjust to this new way of eating, but we decided to continue eating
+      paleo after those 10 days and have since become utterly hooked! There is
+      no better feeling than fueling your body with real, whole, nutrient-dense
+      foods. I feel the best when I eat paleo, but I also am strongly against
+      deprivation and very much support a balanced, healthy way of life. So
+      while most of the recipes you’ll see here are paleo, I also incorporate
+      some non-paleo goods, and those who know me know that I will rarely say no
+      to a good old-fashioned (non-paleo) treat. I hope after taking a peak
+      around FinleyMintzed you realize how fun and easy it is to make simple,
+      delicious, and healthy meals (and desserts) and feel inspired to get
+      cooking!
     </p>
   </Layout>
 )

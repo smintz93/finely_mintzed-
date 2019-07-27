@@ -20,6 +20,10 @@ class Instagram extends Component {
     this.fetchPhotos();
   }
 
+  componentWillUnmount(){
+    console.log(" -- Component Will UNMount -- ")
+  }
+
   fetchPhotos = () => {
     console.log("Api call for Insta photos")
     axios.get(`https://api.instagram.com/v1/users/self/media/recent/?access_token=${API_KEY}`)
@@ -32,13 +36,27 @@ class Instagram extends Component {
 
   nextImage = () => {
     console.log('Next')
+    // Call also create a set timeout that accomplished same thing 
     this.setState({slideCount: this.state.slideCount + 1 })
+
+    // WRITE LOGIC TO START OVER SLIDE SHOW 
+
+    // if(this.state.slideCount === 2) {
+    //   this.setState({slideCount: 1})
+    // }
   }
 
   previousImage = () => {
     console.log('Back')
     this.setState({ slideCount: this.state.slideCount - 1  })
   }
+
+  // timer = () => {
+  //   setInterval((time) => {
+  //     this.setState({ slideCount: this.state.slideCount + 1 })
+  //     console.log(time)
+  //   }, 3000);
+  // }
 
   render() {
     // { console.log(this.state.photos) }
