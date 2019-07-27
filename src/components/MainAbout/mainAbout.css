@@ -1,8 +1,10 @@
 .aboutContainer {
   border: 1px solid blue;
   display: flex;
+  justify-content: space-around;
 }
 
 .bio {
   border: 1px solid green;
+  width: 400px;
 }

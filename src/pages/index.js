@@ -23,7 +23,7 @@ const IndexPage = () => (
     }}>
       <MainImages />
       <MainAbout />
-      <div style={{ maxWidth: `400px`, marginBottom: `1.45rem` }}>
+      <div style={{marginBottom: `1.45rem`}}>
         <Instagram />
         {/* <Image /> */}
       </div>

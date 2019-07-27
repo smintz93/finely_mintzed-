@@ -3,8 +3,7 @@ import Layout from "../components/layout";
 
 const About = () => (
   <Layout>
-    <h1>About us</h1>
-    <p>This is the about page for this website</p>
+    <h1>About FinleyMintzed</h1>
     <p>Website construction underway...</p>
     <p>image...</p>
     <p>
