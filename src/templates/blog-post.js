@@ -11,20 +11,20 @@ export default function Template({data}) {
         <Link to="/blog">Go Back</Link>
         <hr />
         <h1>{post.frontmatter.title}</h1>
-            <ul>
-              <li>{post.frontmatter.recipe}</li>
-            </ul>
-            
-            <ul>
-              <li>{post.frontmatter.instructions}</li>
-            </ul>
-          
-            <h3>image</h3>
-
-        <h4>
+        <h6>
           Posted by: {post.frontmatter.author} on {post.frontmatter.date}
-        </h4>
-        <div dangerouslySetInnerHTML={{ __html: post.__html }} />
+        </h6>
+        <ul>
+          <li>{post.frontmatter.recipe}</li>
+        </ul>
+
+        <ul>
+          <li>{post.frontmatter.instructions}</li>
+        </ul>
+
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        {/* this should be markdown file?? */}
+        <h3>image</h3>
       </div>
     </Layout>
   )
