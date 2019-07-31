@@ -11,9 +11,14 @@ export default function Template({data}) {
         <Link to="/blog">Go Back</Link>
         <hr />
         <h1>{post.frontmatter.title}</h1>
-
-            <li>{post.frontmatter.recipe}</li>
-
+            <ul>
+              <li>{post.frontmatter.recipe}</li>
+            </ul>
+            
+            <ul>
+              <li>{post.frontmatter.instructions}</li>
+            </ul>
+          
             <h3>image</h3>
 
         <h4>
@@ -34,6 +39,7 @@ export const postQuery = graphql`
                title
                author
                recipe
+               instructions
                image
                date
              }

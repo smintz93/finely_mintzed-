@@ -25,23 +25,24 @@ const BlogPage = ({data}) => (
 
 
 export const pageQuery = graphql`
- query BlogIndexQuery {
-   allMarkdownRemark {
-     edges {
-       node {
-         id
-         frontmatter {
-           path
-           title
-           recipe
-           date
-           author
+         query BlogIndexQuery {
+           allMarkdownRemark {
+             edges {
+               node {
+                 id
+                 frontmatter {
+                   path
+                   title
+                   recipe
+                   instructions
+                   date
+                   author
+                 }
+               }
+             }
+           }
          }
-       }
-     }
-   }
- }
-`
+       `
 
 
 
