@@ -2,6 +2,7 @@
 path: "/post-two"
 date: "2019-7-2"
 title: "My second post" 
+recipe: "recipe description"
 image: "Link to image"
 author: "@FinelyMintz"
 ---

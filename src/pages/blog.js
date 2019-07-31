@@ -7,7 +7,7 @@ import { graphql } from "gatsby";
 
 const BlogPage = ({data}) => (
   <Layout>
-    <h1>Latest Post</h1>
+    <h1>Latest Posts</h1>
     {data.allMarkdownRemark.edges.map((post) =>  (
       <div key={ post.node.id }>
         <h3>{post.node.frontmatter.title}</h3>
@@ -33,6 +33,7 @@ export const pageQuery = graphql`
          frontmatter {
            path
            title
+           recipe
            date
            author
          }
