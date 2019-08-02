@@ -1,5 +1,5 @@
 ---
-path: "/post-three"
+path: "/turkeybowl"
 date: "2019-8-1"
 title: "Ground Turkey Veggie Bowl" 
 image: "Link to image"
@@ -19,7 +19,6 @@ author: "@FinelyMintz"
 *	1-2 tablespoons avocado oil
 *	1 teaspoon garlic powder
 *	Salt and pepper
-
 
 
 ### Instructions 

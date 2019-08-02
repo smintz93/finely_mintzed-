@@ -1,10 +1,14 @@
 ---
-path: "/post-one"
+path: "/paleobanana"
 date: "2019-7-1"
 title: "Paleo Banana Pancakes" 
 image: "Link to image"
 author: "@FinelyMintz"
 ---
+
+
+
+![testimage]('https://www.kisspng.com/png-hamburger-street-food-seafood-fast-food-delicious-103694/')
 
 ### Recipe 
 
