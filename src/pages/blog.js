@@ -33,8 +33,6 @@ export const pageQuery = graphql`
                  frontmatter {
                    path
                    title
-                   recipe
-                   instructions
                    date
                    author
                  }

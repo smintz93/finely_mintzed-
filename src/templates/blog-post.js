@@ -14,16 +14,7 @@ export default function Template({data}) {
         <h6>
           Posted by: {post.frontmatter.author} on {post.frontmatter.date}
         </h6>
-        <ul>
-          <li>{post.frontmatter.recipe}</li>
-        </ul>
-
-        <ul>
-          <li>{post.frontmatter.instructions}</li>
-        </ul>
-
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        {/* this should be markdown file?? */}
         <h3>image</h3>
       </div>
     </Layout>
@@ -38,8 +29,6 @@ export const postQuery = graphql`
                path
                title
                author
-               recipe
-               instructions
                image
                date
              }

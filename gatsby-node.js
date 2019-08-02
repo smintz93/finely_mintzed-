@@ -22,8 +22,6 @@ exports.createPages = ({boundActionCreators, graphql}) => {
               path
               title
               author
-              recipe
-              instructions
               image
               date
             }
