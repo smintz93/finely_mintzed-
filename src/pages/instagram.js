@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import BackArrow from '../components/arrows/backArrow';
+import BackArrow from '../components/arrows/BackArrow';
 import NextArrow from '../components/arrows/NextArrow';
 import "./instagram.css"
 
