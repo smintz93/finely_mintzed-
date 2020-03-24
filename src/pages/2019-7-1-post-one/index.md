@@ -7,9 +7,6 @@ author: "@FinelyMintz"
 ---
 
 
-
-![testimage](../../images/bananapan.jpg)
-
 ### Recipe 
 
 * 1 ripe banana

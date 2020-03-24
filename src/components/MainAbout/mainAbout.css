@@ -4,6 +4,7 @@
 }
 .bio {
   width: 400px;
+  padding-top: 25px;
 }
 
 .JoBio {
@@ -13,4 +14,9 @@
 
 .bio h3 {
   font-size: 44px;
+}
+
+.bio p {
+  font-size: 20px;
+  line-height: 1.9;
 }

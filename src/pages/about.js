@@ -1,12 +1,14 @@
 import React from 'react';
 import Layout from "../components/layout";
+import './about.css'
+import JoBioPic from '../images/JohannaBio.jpeg';
 
 const About = () => (
   <Layout>
     <h1>About FinleyMintzed</h1>
-    <p>Website construction underway...</p>
-    <p>image...</p>
-    <div>
+    <div class='aboutContainer'>
+    <img className="JoBio" src={JoBioPic} />
+    <div class='aboutText'>
       <p>
           Hello everyone! My name is Johanna Mintz and I am so excited to welcome
           you to my blog, FinelyMintzed. I am originally from Chicago, but currently
@@ -39,6 +41,7 @@ const About = () => (
           easy it is to make simple, delicious, and healthy meals (and desserts)
           and feel inspired to get cooking!
       </p>
+    </div>
     </div>
   </Layout>
 )

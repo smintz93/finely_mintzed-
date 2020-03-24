@@ -4,3 +4,7 @@
   justify-content: center;
   margin-top: 30px;
 }
+
+.instaDescription p {
+  text-align: center;
+}

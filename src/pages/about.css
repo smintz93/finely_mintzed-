@@ -1,0 +1,11 @@
+.aboutContainer {
+  display: flex;
+  margin-top: 5%;
+}
+
+.JoBio {
+  width: 250px;
+  height: 400px;
+}
+
+.aboutText {margin-left: 5%;}

@@ -4,10 +4,46 @@
   margin-bottom: 1.45rem
 }
 
-.images {
+.imagesWrap {
+  position: relative;
 }
 
 img {
   width: 250px;
   height: 250px;
 }
+
+.description {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  height: 250px;
+  background: rgba(139,0,139, 0.55);
+  transition: opacity .2s, visibility .2s;
+}
+
+.description p {
+  position: absolute;
+  top: 40%;
+  left: 21%;
+  cursor: pointer;
+}
+
+.description a {
+  color: white;
+}
+
+.imagesWrap:hover .description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
