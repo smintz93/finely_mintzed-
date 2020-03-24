@@ -13,7 +13,7 @@ import Instagram from "./instagram"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Welcome to the Finely Mintzed Blog</h1>
+    <h1>Welcome to Finely Mintzed</h1>
     <p>Website construction underway...</p>
     <div style={{
         display: 'flex',

@@ -5,7 +5,6 @@ import imageOne from "../../images/imageOne.png"
 import imageTwo from "../../images/imageTwo.png"
 import imageThree from "../../images/imageThree.png"
 
-
 const mainImages = () => (
   <div className="imageContainer">
     <div className="images">

@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import BackArrow from '../components/arrows/backArrow';
 import NextArrow from '../components/arrows/NextArrow';
+import "./instagram.css"
 
 const API_KEY = process.env.GATSBY_INSTAGRAM_API_KEY
 
@@ -61,7 +62,9 @@ class Instagram extends Component {
   render() {
     // { console.log(this.state.photos) }
     return (
-      <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '30px', border: '1px solid black'}}>  
+      <div>
+      <p>Take a look at some of my most recent recipes below or head on over to the <a href='https://www.instagram.com/finelymintzed/'>FinelyMintzed</a> Instagram</p>
+      <div className='insta'>  
         {this.state.slideCount !== 0 ? <BackArrow previousImage={this.previousImage}/> : ''}
        
           {this.state.photos.map((photo, key) => {
@@ -80,6 +83,7 @@ class Instagram extends Component {
             return ''
           })}
         {this.state.slideCount !== (this.state.photos.length - 1) ? <NextArrow style={{margin: '10px'}}nextImage={this.nextImage}/> : ''}
+      </div>
       </div>
     );
   }
