@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import BackArrow from '../components/arrows/BackArrow';
-import NextArrow from '../components/arrows/NextArrow';
+import BackArrow from '../components/BackArrow';
+import NextArrow from '../components/NextArrow';
 import "./instagram.css"
 
 const API_KEY = process.env.GATSBY_INSTAGRAM_API_KEY
