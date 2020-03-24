@@ -5,10 +5,11 @@ import JoBioPic from '../images/JohannaBio.jpeg';
 
 const About = () => (
   <Layout>
+    <div className='pageAboutWrapper'>
     <h1>About FinleyMintzed</h1>
-    <div class='aboutContainer'>
+    <div class='aboutContainerMain'>
     <img className="JoBio" src={JoBioPic} />
-    <div class='aboutText'>
+    <div class='aboutTextMain'>
       <p>
           Hello everyone! My name is Johanna Mintz and I am so excited to welcome
           you to my blog, FinelyMintzed. I am originally from Chicago, but currently
@@ -41,6 +42,7 @@ const About = () => (
           easy it is to make simple, delicious, and healthy meals (and desserts)
           and feel inspired to get cooking!
       </p>
+    </div>
     </div>
     </div>
   </Layout>

@@ -1,6 +1,11 @@
 .aboutContainer {
+  background: rebeccapurple
+}
+
+.aboutWrapper {
   display: flex;
   justify-content: space-around;
+  padding: 30px;
 }
 .bio {
   width: 400px;
@@ -10,13 +15,39 @@
 .JoBio {
   width: 250px;
   height: 400px;
+  padding-top: 25px;
 }
 
 .bio h3 {
   font-size: 44px;
+  color: white;
 }
 
 .bio p {
   font-size: 20px;
   line-height: 1.9;
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .aboutContainer {
+    flex-direction: column;
+  }
+
+  .aboutWrapper {
+    display: block;
+  }
+
+  .JoPic {
+    text-align: center;
+  }
+
+  .bio p {
+    font-size: 14px;
+    line-height: 1.9;
+    width: 87%;
+  }
+
+
+
 }

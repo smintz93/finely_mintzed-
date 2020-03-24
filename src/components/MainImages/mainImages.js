@@ -6,7 +6,7 @@ import imageTwo from "../../images/imageTwo.png"
 import imageThree from "../../images/imageThree.png"
 
 const mainImages = () => (
-  <div className="imageContainer">
+  <div style={{ maxWidth: 960}} className="imageContainer">
     <div className="imagesWrap">
       <img src={imageOne} alt="picture1" />
       <div class='description'>

@@ -7,6 +7,12 @@ import { graphql } from "gatsby";
 
 const BlogPage = ({data}) => (
   <Layout>
+    <div style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `0px 1.0875rem 1.45rem`,
+          paddingTop: 0,
+         }}>
     <h1>Latest Posts</h1>
     {data.allMarkdownRemark.edges.map((post) =>  (
       <div key={ post.node.id }>
@@ -20,6 +26,7 @@ const BlogPage = ({data}) => (
         <hr />
       </div>
     ))}
+    </div>
   </Layout>
 )
 

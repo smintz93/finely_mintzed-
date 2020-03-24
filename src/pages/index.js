@@ -7,17 +7,18 @@ import MainAbout from "../components/MainAbout/mainAbout";
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Instagram from "./instagram"
+import './about.css'
 
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1 style={{marginBottom: '45x'}}>Welcome to Finely Mintzed</h1>
+    {/* <h1 class='welcome' style={{marginBottom: '45x'}}>Welcome to Finely Mintzed</h1> */}
     <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-around'
+        // display: 'flex',
+        // flexDirection: 'column',
+        // justifyContent: 'space-around'
         
     }}>
       <MainImages />

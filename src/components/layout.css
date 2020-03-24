@@ -613,6 +613,25 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+footer {
+  background-color: rebeccapurple;
+  padding: 20px;
+}
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+}
+
+.menuGrid li {
+  text-align: center;
+}
+
+
+
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
