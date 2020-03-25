@@ -5,7 +5,7 @@ import BackArrow from '../components/BackArrow';
 import NextArrow from '../components/NextArrow';
 import "./instagram.css"
 
-const API_KEY = process.env.GATSBY_INSTAGRAM_API_KEY
+// const API_KEY = 11710304357.eff30cd.2e768e7e7e774d7185166f670650383b
 
 class Instagram extends Component {
   constructor(props){
@@ -27,7 +27,7 @@ class Instagram extends Component {
 
   fetchPhotos = () => {
     console.log("Api call for Insta photos")
-    axios.get(`https://api.instagram.com/v1/users/self/media/recent/?access_token=${API_KEY}`)
+    axios.get(`https://api.instagram.com/v1/users/self/media/recent/?access_token=11710304357.eff30cd.2e768e7e7e774d7185166f670650383b`)
       .then(response => {
         this.setState({
           photos: response.data.data
