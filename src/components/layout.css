@@ -621,8 +621,13 @@ pre tt:after {
 }
 
 footer {
-  background-color:  rgba(142, 68, 173, 1);
+  color: rgba(213, 184, 255, 1);
+  background-color:  rgb(244, 244, 244);;
   padding: 20px;
+}
+
+footer a {
+  color: rgba(213, 184, 255, 1);
 }
 
 .menuGrid {
@@ -636,8 +641,9 @@ footer {
 }
 
 .menuGrid li a {
-  color:  rgba(142, 68, 173, 1);
+  color: rgba(213, 184, 255, 1);
   font-family: 'Pacifico', cursive;
+  font-size: 20px;
 }
 
 header h1 {
@@ -646,18 +652,19 @@ header h1 {
   margin-bottom: 20px;
   color: white;
   text-decoration: none;
+  color: rgba(213, 184, 255, 1);
 }
 
 .testLink {
-  color: white;
-  font-size: 46px;
+  color: rgba(213, 184, 255, 1);
+  font-size: 54px;
  
 }
 
 header p {
   text-align: center;
   font-family: 'Pacifico', cursive;
-  color: white;
+  color: rgba(213, 184, 255, 1);
   margin: 0px;
   padding-top: 20px;
   

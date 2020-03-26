@@ -30,7 +30,7 @@ img {
   visibility: hidden;
   opacity: 0;
   height: 250px;
-  background: rgba(139,0,139, 0.55);
+  background: rgba(213, 184, 255, .55);
   transition: opacity .2s, visibility .2s;
 }
 
@@ -42,7 +42,7 @@ img {
 }
 
 .description a {
-  color: white;
+  color: black;
 }
 
 .imagesWrap:hover .description {

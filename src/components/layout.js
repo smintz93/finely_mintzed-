@@ -42,10 +42,10 @@ const Layout = ({ children }) => {
         <main>{children}</main>
   
       </div>
-      <footer style={{color: 'white'}}>
+      <footer style={{ color: 'rgba(213, 184, 255, 1);'}}>
         © {new Date().getFullYear()}, Built by
           {` `}
-        <a style={{color: 'white'}}href="https://www.sammintz.co">Sam Mintz</a>
+        <a style={{ color: 'rgba(213, 184, 255, 1);'}}href="https://www.sammintz.co">Sam Mintz</a>
       </footer>
     </>
   )
