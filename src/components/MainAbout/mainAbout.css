@@ -1,7 +1,5 @@
-.aboutContainer {
-  /* background: rgba(142, 68, 173, 1) */
-  
-}
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
 
 .aboutWrapper {
     display: grid;
@@ -28,12 +26,14 @@
 .bio h3 {
   font-size: 44px;
   color: black;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .bio p {
   font-size: 20px;
   line-height: 1.9;
   color: black;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 @media only screen and (max-width: 480px) {

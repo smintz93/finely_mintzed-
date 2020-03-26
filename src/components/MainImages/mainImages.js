@@ -10,21 +10,21 @@ const mainImages = () => (
     <div className="imagesWrap">
       <img src={imageOne} alt="picture1" />
       <div class='description'>
-        <p><Link to={"/recipe4"}>Name of Recipe</Link></p>
+        <p><Link to={"/recipe4"}>Cauliflower Gnocchi</Link></p>
     
       </div>
     </div>
     <div className="imagesWrap">
       <img src={imageTwo} alt="picture2" />
       <div class='description'>
-        <p><Link to={"/recipe5"}>Name of Recipe</Link></p>
+        <p><Link to={"/recipe5"}>Turkey Taco Bowl</Link></p>
     
       </div>
     </div>
     <div className="imagesWrap">
       <img src={imageThree} alt="picture3" />
       <div class='description'>
-        <p><Link to={"/recipe6"}>Name of Recipe</Link></p>
+        <p><Link to={"/recipe6"}>Chocolate Chip Tahini Cake</Link></p>
       </div>
     </div>
   </div>
