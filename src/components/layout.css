@@ -202,7 +202,7 @@ html {
   box-sizing: inherit;
 }
 a{
-  color: rgba(213, 184, 255, 1);
+  color:#d4acff;
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
@@ -628,7 +628,7 @@ footer {
 }
 
 footer a {
-  color: rgba(213, 184, 255, 1);
+  color: #d4acff;
 }
 
 .menuGrid {
@@ -642,9 +642,10 @@ footer a {
 }
 
 .menuGrid li a {
-  color: rgba(213, 184, 255, 1);
-  font-family: 'Pacifico', cursive;
+  color: #d4acff;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
+  font-weight: 800;
 }
 
 header h1 {
@@ -653,11 +654,11 @@ header h1 {
   margin-bottom: 20px;
   color: white;
   text-decoration: none;
-  color: rgba(213, 184, 255, 1);
+  color: #d4acff
 }
 
 .testLink {
-  color: rgba(213, 184, 255, 1);
+  color:#d4acff;
   font-size: 54px;
  
 }
@@ -665,7 +666,7 @@ header h1 {
 header p {
   text-align: center;
   font-family: 'Pacifico', cursive;
-  color: rgba(213, 184, 255, 1);
+  color: #d4acff;
   margin: 0px;
   padding-top: 20px;
   

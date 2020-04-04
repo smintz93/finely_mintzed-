@@ -10,14 +10,13 @@ const mainImages = () => (
     <div className="imagesWrap">
       <img src={imageOne} alt="picture1" />
       <div class='description'>
-        <p><Link to={"/recipe4"}>Cauliflower Gnocchi</Link></p>
-    
+        <p><Link to={"/CauliflowerGnocchi"}>Cauliflower Gnocchi</Link></p>
       </div>
     </div>
     <div className="imagesWrap">
       <img src={imageTwo} alt="picture2" />
       <div class='description'>
-        <p><Link to={"/recipe5"}>Turkey Taco Bowl</Link></p>
+        <p><Link to={"/TurkeyTacoBowl"}>Turkey Taco Bowl</Link></p>
     
       </div>
     </div>
