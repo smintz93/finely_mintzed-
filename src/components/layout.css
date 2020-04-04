@@ -202,7 +202,8 @@ html {
   box-sizing: inherit;
 }
 a{
-  color:#d4acff;
+  color:#9588e1;
+  
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
@@ -622,13 +623,13 @@ pre tt:after {
 }
 
 footer {
-  color: rgba(213, 184, 255, 1);
+  color: 9588e1;
   background-color:  rgb(244, 244, 244);;
   padding: 20px;
 }
 
 footer a {
-  color: #d4acff;
+  color: #9588e1;
 }
 
 .menuGrid {
@@ -642,7 +643,7 @@ footer a {
 }
 
 .menuGrid li a {
-  color: #d4acff;
+  color: #9588e1;
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: 800;
@@ -654,11 +655,11 @@ header h1 {
   margin-bottom: 20px;
   color: white;
   text-decoration: none;
-  color: #d4acff
+  color: #9588e1
 }
 
 .testLink {
-  color:#d4acff;
+  color: #9588e1;
   font-size: 54px;
  
 }
@@ -666,7 +667,7 @@ header h1 {
 header p {
   text-align: center;
   font-family: 'Pacifico', cursive;
-  color: #d4acff;
+  color: #9588e1;
   margin: 0px;
   padding-top: 20px;
   

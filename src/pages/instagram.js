@@ -19,6 +19,8 @@ class Instagram extends Component {
   componentWillMount(){
     console.log(" -- Component Will Mount -- ")
     this.fetchPhotos();
+    // this.timer();
+  
   }
 
   componentWillUnmount(){
@@ -52,12 +54,13 @@ class Instagram extends Component {
     this.setState({ slideCount: this.state.slideCount - 1  })
   }
 
-  // timer = () => {
-  //   setInterval((time) => {
-  //     this.setState({ slideCount: this.state.slideCount + 1 })
-  //     console.log(time)
-  //   }, 3000);
-  // }
+ timer = () => {
+   console.log('time is running');
+    setInterval((time) => {
+     this.setState({ slideCount: this.state.slideCount + 1 })
+      console.log(time)
+    }, 3000);
+ }
 
   render() {
     // { console.log(this.state.photos) }
