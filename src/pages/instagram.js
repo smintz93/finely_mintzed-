@@ -55,7 +55,6 @@ class Instagram extends Component {
   }
 
  timer = () => {
-   console.log('time is running');
     setInterval((time) => {
      this.setState({ slideCount: this.state.slideCount + 1 })
       console.log(time)
