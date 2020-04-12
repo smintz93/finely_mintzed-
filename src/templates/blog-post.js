@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link, graphql } from "gatsby"
 import Layout from '../components/layout';
+import Img from "gatsby-image";
 
 export default function Template({data}) {
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
+
+  // let featuredImgFluid = post.frontmatter.image.childImageSharp.fluid
+
+
 
   return (
     <Layout>
@@ -20,7 +25,7 @@ export default function Template({data}) {
           Posted by: {post.frontmatter.author} on {post.frontmatter.date}
         </h6>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <h3>image</h3>
+        {/* <Img fluid={featuredImgFluid} /> */}
       </div>
     </Layout>
   )
@@ -34,8 +39,8 @@ export const postQuery = graphql`
                path
                title
                author
-               image
-               date
+               image 
+              date
              }
            }
          }

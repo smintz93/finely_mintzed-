@@ -13,7 +13,7 @@ const BlogPage = ({data}) => (
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
          }}>
-    <h1>Latest Posts</h1>
+    <h1>Recipes</h1>
     {data.allMarkdownRemark.edges.map((post) =>  (
       <div key={ post.node.id }>
         <h3>{post.node.frontmatter.title}</h3>

@@ -1,9 +1,9 @@
 import React from 'react';
-import { FaBackward } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
 
 const BackArrow = ({ previousImage }) => (
   <div onClick={previousImage} style={{ fontSize: "2em", marginRight: "12px" }}>
-    <FaBackward />
+    <FaArrowLeft />
   </div>
 )
 
