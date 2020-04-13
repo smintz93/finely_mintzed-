@@ -2,7 +2,7 @@
 path: "/TurkeyTacoBowl"
 date: "2019-8-1"
 title: "Turkey Taco Bowl" 
-image: "Link to image"
+# image: ../../images/bpancake.jpg
 author: "@FinelyMintz"
 ---
 

@@ -2,7 +2,7 @@
 path: "/CauliflowerGnocchi"
 date: "2019-8-1"
 title: "Cauliflower Gnocchi" 
-image: "Link to image"
+# image: ../../images/bpancake.jpg
 author: "@FinelyMintz"
 ---
 

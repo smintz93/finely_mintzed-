@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require("path")
 
 require("dotenv").config({
   path: `.env.${process.env.GATSBY_INSTAGRAM_API_KEY}`,
@@ -6,10 +6,10 @@ require("dotenv").config({
 
 // registers our post so we can use those urls
 // using createPages API from gatsby
-exports.createPages = ({boundActionCreators, graphql}) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ boundActionCreators, graphql }) => {
+  const { createPage } = boundActionCreators
 
-  const postTemplate = path.resolve('src/templates/blog-post.js');
+  const postTemplate = path.resolve("src/templates/blog-post.js")
 
   return graphql(`
     {
@@ -22,7 +22,6 @@ exports.createPages = ({boundActionCreators, graphql}) => {
               path
               title
               author
-              image
               date
             }
           }

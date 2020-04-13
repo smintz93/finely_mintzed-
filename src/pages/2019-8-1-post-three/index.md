@@ -2,7 +2,7 @@
 path: "/turkeybowl"
 date: "2019-8-1"
 title: "Ground Turkey Veggie Bowl" 
-image: "Link to image"
+# image: ../../images/bpancake.jpg
 author: "@FinelyMintz"
 ---
 

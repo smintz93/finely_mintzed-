@@ -2,7 +2,7 @@
 path: "/paleobanana"
 date: "2019-7-1"
 title: "Paleo Banana Pancakes" 
-image: "bpancake.jpg"
+# image: ../../images/bpancake.jpg
 author: "@FinelyMintz"
 ---
 
@@ -30,9 +30,11 @@ author: "@FinelyMintz"
 7.	Cook second side for another 3 minutes
 8.	Remove from skillet and top with almond butter, maple syrup, and granola of choice
 
-<!-- <img src="../bpancake.jpg"
-     alt="Markdown Monster icon2"
-     style="float: left; margin-right: 10px;" /> -->
+ <!-- <IMG SRC="./images/sptoast.jpg"
+     ALT="MARKDOWN MONSTER test1"
+     STYLE="MARGIN-RIGHT: 10PX;" /> -->
+
+![Hopper The Rabbit](./imageThree.png)
 
 
 <!-- ![image info](../../images/bpancake.jpg) -->

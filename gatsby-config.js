@@ -1,3 +1,4 @@
+
 module.exports = {
   siteMetadata: {
     title: `Finely Mintzed`,
@@ -47,5 +48,3 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
-
-
