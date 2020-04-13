@@ -5,6 +5,7 @@ title: "Paleo Banana Pancakes"
 # image: ../../images/bpancake.jpg
 author: "@FinelyMintz"
 ---
+![Banana Pancake](./bpancake.jpg)
 
 
 ### Recipe 
@@ -29,12 +30,3 @@ author: "@FinelyMintz"
 6.	Let first side cook for about 5 minutes or until able to slip spatula underneath and flip
 7.	Cook second side for another 3 minutes
 8.	Remove from skillet and top with almond butter, maple syrup, and granola of choice
-
- <!-- <IMG SRC="./images/sptoast.jpg"
-     ALT="MARKDOWN MONSTER test1"
-     STYLE="MARGIN-RIGHT: 10PX;" /> -->
-
-![Hopper The Rabbit](./imageThree.png)
-
-
-<!-- ![image info](../../images/bpancake.jpg) -->
