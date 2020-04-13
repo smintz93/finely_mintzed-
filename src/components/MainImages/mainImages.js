@@ -36,7 +36,7 @@ const mainImages = () => (
     <div className="imagesWrap">
       <img src={spToast} alt="picture5" />
       <div class='description'>
-        <p><Link to={"/sweetpatatotoast"}>Sweet Patato Toast</Link></p>
+        <p><Link to={"/sweetpotatotoast"}>Sweet Patato Toast</Link></p>
       </div>
     </div>
   </div>

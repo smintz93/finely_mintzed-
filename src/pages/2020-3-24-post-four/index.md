@@ -6,6 +6,9 @@ title: "Cauliflower Gnocchi"
 author: "@FinelyMintz"
 ---
 
+![CauliflowerGnocchi](./imageOne.png)
+
+
 ### Recipe 
 
 * ½ bag of cauliflower gnocchi (Trader Joe’s is my fave!)

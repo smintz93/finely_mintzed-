@@ -6,6 +6,10 @@ title: "Sweet Potato Toasts with Avocado and Fried Eggs"
 author: "@FinelyMintz"
 ---
 
+
+![SP Toast](./sptoast.jpg)
+
+
 ### Recipe
 
 * 1 Japanese sweet potato

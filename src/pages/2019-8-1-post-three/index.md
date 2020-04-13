@@ -6,6 +6,8 @@ title: "Ground Turkey Veggie Bowl"
 author: "@FinelyMintz"
 ---
 
+![Turkey Bowl](./new_turkey.jpg)
+
 ### Recipe 
 
 *	1lb ground turkey
