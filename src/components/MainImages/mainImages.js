@@ -4,7 +4,7 @@ import  "./mainImages.css"
 import imageOne from "../../images/imageOne.png"
 import imageTwo from "../../images/imageTwo.png"
 import imageThree from "../../images/imageThree.png"
-import bpPancake from "../../images/bananapan.jpg"
+import bpPancake from "../../images/new_pancake.jpg"
 import spToast from "../../images/sptoast.jpg"
 
 const mainImages = () => (
