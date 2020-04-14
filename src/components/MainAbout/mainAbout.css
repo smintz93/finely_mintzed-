@@ -16,11 +16,22 @@
     padding-top: 25px;
 }
 
+.JoPic {
+  grid-column: span 2;
+}
 
-.JoBio {
-  width: 250px;
-  height: 400px;
-  padding-top: 35px;
+
+.JoBioPic {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    margin-top: 8%;
+
+}
+
+.JoBioPic img {
+  transform: rotate(90deg);
 }
 
 .bio h3 {

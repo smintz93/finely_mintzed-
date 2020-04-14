@@ -1,6 +1,7 @@
 import React from "react"
 import "./mainAbout.css"
-import JoBioPic from '../../images/JohannaBio.jpeg';
+// import JoBioPic from '../../images/JohannaBio.jpeg';
+import JoBioPic from '../../images/jo_other_bio.jpg';
 
 const mainAbout = () => (
   <div className="aboutContainer">
@@ -12,7 +13,7 @@ const mainAbout = () => (
       </p>
     </div>
     <div className="JoPic">
-      <img className="JoBio" src={JoBioPic} />
+      <img className="JoBioPic" src={JoBioPic} />
     </div>
     </div>
   </div>
