@@ -5,7 +5,7 @@ title: "Paleo Banana Pancakes"
 # image: ../../images/bpancake.jpg
 author: "@FinelyMintz"
 ---
-![Banana Pancake](./new_pancake.JPG)
+![Banana Pancake](./newpancake.jpg)
 
 
 ### Recipe 
