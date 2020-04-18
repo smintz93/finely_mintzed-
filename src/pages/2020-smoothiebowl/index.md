@@ -3,7 +3,7 @@ path: "/smoothiebowl"
 date: "2020-4-14"
 title: "Smoothie Bowl" 
 # image: ../../images/bpancake.jpg
-author: "@FinelyMintz"
+author: "@FinelyMintzed"
 ---
 ![Smoothie Bowl](./smoothiebowl.JPG)
 

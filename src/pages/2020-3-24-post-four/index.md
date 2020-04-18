@@ -3,7 +3,7 @@ path: "/CauliflowerGnocchi"
 date: "2019-8-1"
 title: "Cauliflower Gnocchi" 
 # image: ../../images/bpancake.jpg
-author: "@FinelyMintz"
+author: "@FinelyMintzed"
 ---
 
 ![CauliflowerGnocchi](./imageOne.png)

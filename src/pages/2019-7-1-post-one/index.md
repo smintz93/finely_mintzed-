@@ -3,7 +3,7 @@ path: "/paleobanana"
 date: "2019-7-1"
 title: "Paleo Banana Pancakes" 
 # image: ../../images/bpancake.jpg
-author: "@FinelyMintz"
+author: "@FinelyMintzed"
 ---
 ![Banana Pancake](./newpancake.jpg)
 

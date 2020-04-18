@@ -60,12 +60,18 @@
     text-align: center;
   }
 
+  .bio {
+    width: auto;
+  }
+
+  .bio h3 {
+    text-align: center;
+  }
   .bio p {
     font-size: 14px;
     line-height: 1.9;
     width: 87%;
+    text-align: center;
   }
-
-
 
 }
