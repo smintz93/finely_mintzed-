@@ -5,7 +5,7 @@ title: "Smoothie Bowl"
 # image: ../../images/bpancake.jpg
 author: "@FinelyMintzed"
 ---
-![Smoothie Bowl](./smoothiebowl.JPG)
+![Smoothie Bowl](./smoothiebowl.jpg)
 
 
 ### Recipe 

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import  "./mainImages.css"
 import imageOne from "../../images/imageOne.png"
 import imageTwo from "../../images/imageTwo.png"
-import imageThree from "../../images/imageThree.png"
+import imageThree from "../../images/smoothiebowl.jpg"
 import bpPancake from "../../images/newpancake.jpg"
 import spToast from "../../images/sptoast.jpg"
 
@@ -24,7 +24,7 @@ const mainImages = () => (
     <div className="imagesWrap">
       <img src={imageThree} alt="picture3" />
       <div class='description'>
-        <p><Link to={"/recipe6"}>Chocolate Chip Tahini Cake</Link></p>
+        <p><Link to={"/smoothiebowl"}>Smoothie Bowl</Link></p>
       </div>
     </div>
     <div className="imagesWrap">
@@ -36,7 +36,7 @@ const mainImages = () => (
     <div className="imagesWrap">
       <img src={spToast} alt="picture5" />
       <div class='description'>
-        <p><Link to={"/sweetpotatotoast"}>Sweet Patato Toast</Link></p>
+        <p><Link to={"/sweetpotatotoast"}>Sweet Potato Toast</Link></p>
       </div>
     </div>
   </div>
