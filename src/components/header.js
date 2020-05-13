@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from '../images/finelymintzed_logo.png';
 
 const Header = ({ siteTitle }) => (
   <header
@@ -13,15 +14,12 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        textAlign: `center`
       }}
     >
-      <h1 className='finelyH1' style={{ margin: 0 }}>
         <Link className='testLink' to="/">
-          FinelyMintzed
+          <img src={Logo}/>
         </Link>
-      </h1>
-      <p >Paleo ish eats</p>
     </div>
   </header>
 )

@@ -622,15 +622,7 @@ pre tt:after {
   content: "";
 }
 
-footer {
-  color: 9588e1;
-  background-color:  rgb(244, 244, 244);;
-  padding: 20px;
-}
-
-footer a {
-  color: #9588e1;
-}
+/* Start of site specific */
 
 .menuGrid {
   display: grid;
@@ -647,7 +639,15 @@ footer a {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: 800;
+  /* transition: 0.2s; */
 }
+
+  .menuGrid li a:hover {
+    background: #9588e1;
+    color: rgb(244, 244, 244);
+    padding: 12px 30px;
+
+  }
 
 header h1 {
   text-align: center;
@@ -669,8 +669,28 @@ header p {
   font-family: 'Pacifico', cursive;
   color: #9588e1;
   margin: 0px;
-  padding-top: 20px;
-  
+  padding-top: 20px;  
+}
+
+
+header img {
+    height: 180px;
+    width: 500px;
+    margin-bottom: 0px;
+}
+
+.insta svg:hover {
+  cursor: pointer;
+}
+
+footer {
+  color: 9588e1;
+  background-color:  rgb(244, 244, 244);;
+  padding: 20px;
+}
+
+footer a {
+  color: #9588e1;
 }
 
 
