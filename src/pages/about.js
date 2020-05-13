@@ -12,7 +12,7 @@ const About = () => (
     <div class='aboutTextMain'>
       <p>
           Hello everyone! My name is Johanna Mintz and I am so excited to welcome
-          you to my blog, FinelyMintzed. I am originally from Chicago, but currently
+          you to my blog, finelymintzed. I am originally from Chicago, but currently
           living in Washington, DC, after graduating from Georgetown University in
         2018.
       </p> 
@@ -38,7 +38,7 @@ const About = () => (
           will rarely say no to a good old-fashioned (non-paleo) treat.
       </p>
       <p>
-          I hope after taking a peak around FinleyMintzed you realize how fun and
+          I hope after taking a peak around finelymintzed you realize how fun and
           easy it is to make simple, delicious, and healthy meals (and desserts)
           and feel inspired to get cooking!
       </p>

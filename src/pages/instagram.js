@@ -5,8 +5,6 @@ import BackArrow from '../components/BackArrow';
 import NextArrow from '../components/NextArrow';
 import "./instagram.css"
 
-// const API_KEY = 11710304357.eff30cd.2e768e7e7e774d7185166f670650383b
-
 class Instagram extends Component {
   constructor(props){
     super(props);
@@ -65,7 +63,7 @@ class Instagram extends Component {
     // { console.log(this.state.photos) }
     return (
       <div class='instaDescription' style={{marginTop: '2.45rem'}}>
-      <p>Take a look at some of my most recent creations below or head on over to the <a href='https://www.instagram.com/finelymintzed/'>FinelyMintzed</a> Instagram</p>
+      <p>Take a look at some of my most recent creations below or head on over to the <a href='https://www.instagram.com/finelymintzed/'>finelymintzed</a> Instagram</p>
       <div className='insta'>  
         {this.state.slideCount !== 0 ? <BackArrow previousImage={this.previousImage}/> : ''}
        

@@ -3,7 +3,7 @@ path: "/TurkeyTacoBowl"
 date: "2019-8-1"
 title: "Turkey Taco Bowl" 
 # image: ../../images/bpancake.jpg
-author: "@FinelyMintzed"
+author: "@finelymintzed"
 ---
 
 ![Turkey Taco Bowl](./imageTwo.png)
