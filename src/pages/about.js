@@ -6,7 +6,7 @@ import JoBioPic from '../images/JohannaBio.jpeg';
 const About = () => (
   <Layout>
     <div className='pageAboutWrapper'>
-    <h1>About FinelyMintzed</h1>
+    <h1>About finelymintzed</h1>
     <div class='aboutContainerMain'>
     <img className="JoBio" src={JoBioPic} />
     <div class='aboutTextMain'>

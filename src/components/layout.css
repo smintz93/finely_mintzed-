@@ -635,7 +635,7 @@ pre tt:after {
 }
 
 .menuGrid li a {
-  color: #9588e1;
+  color: #6d3480;
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: 800;
@@ -643,7 +643,7 @@ pre tt:after {
 }
 
   .menuGrid li a:hover {
-    background: #9588e1;
+    background: #6d3480;
     color: rgb(244, 244, 244);
     padding: 12px 30px;
 
