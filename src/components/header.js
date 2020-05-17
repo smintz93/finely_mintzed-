@@ -2,8 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from '../images/finelymintzed_logo.png';
-import Logo1 from '../images/finelymintzed_logo.jpg';
-import Logo2 from '../images/finelymintzed_logo_1.png';
+import LogoSmall from '../images/logo_smaller.png';
 
 
 const Header = ({ siteTitle }) => (
@@ -21,7 +20,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
         <Link className='testLink' to="/">
-          <img src={Logo}/>
+        <img src={LogoSmall}/>
         </Link>
     </div>
   </header>
