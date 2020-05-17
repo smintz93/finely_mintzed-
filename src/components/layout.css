@@ -699,6 +699,11 @@ footer a {
     font-size: 100%;
   }
 
+  header img {
+    padding: 20px;
+
+}
+
   
 .testLink {
   color: #9588e1;

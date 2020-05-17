@@ -1,6 +1,6 @@
 ---
 path: "/CauliflowerGnocchi"
-date: "2019-8-1"
+date: "August 1, 2019"
 title: "Cauliflower Gnocchi" 
 # image: ../../images/bpancake.jpg
 author: "@finelymintzed"

@@ -1,6 +1,6 @@
 ---
 path: "/sweetpotatotoast"
-date: "2019-7-2"
+date: "July 2, 2019
 title: "Sweet Potato Toasts with Avocado and Fried Eggs" 
 # image: ../../images/bpancake.jpg
 author: "@finelymintzed"

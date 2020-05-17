@@ -73,7 +73,7 @@ class Instagram extends Component {
             return (
               <div style={{marginTop: '30px'}}key={photo.id}>
                 <img src={photo.images.standard_resolution.url} alt={photo.caption} 
-                style={{width: '500px', height: '400px', borderRadius: '20px'}}/>
+               />
                  {/* <div style={{width: '200px', margin: '16px auto', fontSize: '12px',fontStyle: 'italic'}}>
                   {photo.caption !== null ? photo.caption.text : ""}
                 </div>  */}

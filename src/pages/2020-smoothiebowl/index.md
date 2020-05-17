@@ -1,6 +1,6 @@
 ---
 path: "/smoothiebowl"
-date: "2020-4-14"
+date: "April 14, 2020"
 title: "Smoothie Bowl" 
 # image: ../../images/bpancake.jpg
 author: "@finelymintzed"

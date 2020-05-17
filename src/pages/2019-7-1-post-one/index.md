@@ -1,6 +1,6 @@
 ---
 path: "/paleobanana"
-date: "2019-7-1"
+date: "July 1, 2019"
 title: "Paleo Banana Pancakes" 
 # image: ../../images/bpancake.jpg
 author: "@finelymintzed"
