@@ -6,7 +6,7 @@ import JoBioPic from '../images/JohannaBio.jpeg';
 const About = () => (
   <Layout>
     <div className='pageAboutWrapper'>
-    <h1>About finelymintzed</h1>
+    <h1>About</h1>
     <div class='aboutContainerMain'>
     <img className="JoBio" src={JoBioPic} />
     <div class='aboutTextMain'>
@@ -24,7 +24,7 @@ const About = () => (
       <p>
           My favorite way to unwind after work is to head straight to the kitchen
         and start prepping dinner (or a post-dinner treat). My love for all thing
-        paleo started in high school when my Mom and I thought we would try out
+        paleo started in high school when my Mom and I thought we would try out a
         10-day paleo plan. It was not exactly love at first bite 😉, as our bodies
         had to adjust to this new way of eating, but we decided to continue eating
         paleo after those 10 days and have since become utterly hooked!
