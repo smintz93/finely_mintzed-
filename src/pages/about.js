@@ -38,7 +38,7 @@ const About = () => (
           will rarely say no to a good old-fashioned (non-paleo) treat.
       </p>
       <p>
-          I hope after taking a peak around finelymintzed you realize how fun and
+          I hope after taking a peek around finelymintzed you realize how fun and
           easy it is to make simple, delicious, and healthy meals (and desserts)
           and feel inspired to get cooking!
       </p>
