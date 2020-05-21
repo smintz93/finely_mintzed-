@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: `Finely Mintzed`,
-    description: `This is the start of a food blog`,
+    description: `Finely Mintzed food blog`,
     author: `@SamMintz`,
   },
   plugins: [
