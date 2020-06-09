@@ -22,11 +22,9 @@ author: "@finelymintzed"
 
 1.	Pound chicken breasts flat with a mallet or rolling pin until chicken is about 1/4 -- 1/8 inch thick (it helps to use wax paper to cover the chicken while pounding)
 2.  Prepare dredging station:
-
-    *   Beat egg in one shallow dish
-    *   Mix almond flour with seasoning in another shallow dish (depending on the number/size of chicken breasts you may need to add more almond flour and/or beat another egg)
-
-3.	Heat coconut oil in large skillet over medium heat until melted
-4.	Dip each chicken breast in egg wash, then coat with seasoned almond flour and add to pan (be careful of hot coconut oil splattering)
-5.	 Cook on medium/high heat for 10 minutes a side
-6.	 Remove chicken and pat excess oil with paper towels
+3.  Beat egg in one shallow dish
+4.  Mix almond flour with seasoning in another shallow dish (depending on the number/size of chicken breasts you may need to add more almond flour and/or beat another egg)
+5.	Heat coconut oil in large skillet over medium heat until melted
+6.	Dip each chicken breast in egg wash, then coat with seasoned almond flour and add to pan (be careful of hot coconut oil splattering)
+7.	 Cook on medium/high heat for 10 minutes a side
+8.	 Remove chicken and pat excess oil with paper towels
