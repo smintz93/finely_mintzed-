@@ -23,7 +23,7 @@ author: "@finelymintzed"
 * 2 T coconut flour
 * ½ tsp baking soda
 * pinch of sea salt
-* dairy free ½ cup chocolate chips
+* ½ dairy free cup chocolate chips
 
 
 
