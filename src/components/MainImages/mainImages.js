@@ -1,42 +1,42 @@
 import React from "react"
 import { Link } from "gatsby"
 import  "./mainImages.css"
-import imageOne from "../../images/imageOne.png"
-import imageTwo from "../../images/imageTwo.png"
-import imageThree from "../../images/smoothiebowl.jpg"
-import bpPancake from "../../images/newpancake.jpg"
-import spToast from "../../images/sptoast.jpg"
+import imageOne from "../../images/paleocookies.jpg"
+import imageTwo from "../../images/frittata.jpg"
+import imageThree from "../../images/cookiedough.jpg"
+import imageFour from "../../images/almondchicken.jpg"
+import imageFive from "../../images/salmon.jpg"
 
 const mainImages = () => (
   <div className="imageContainer">
     <div className="imagesWrap">
       <img src={imageOne} alt="picture1" />
       <div class='description'>
-        <p><Link to={"/CauliflowerGnocchi"}>Cauliflower Gnocchi</Link></p>
+        <p><Link to={"/paleochocolatechipcookies"}>Paleo Cookies</Link></p>
       </div>
     </div>
     <div className="imagesWrap">
       <img src={imageTwo} alt="picture2" />
       <div class='description'>
-        <p><Link to={"/TurkeyTacoBowl"}>Turkey Taco Bowl</Link></p>
+        <p><Link to={"/paleofrittata"}>Frittata</Link></p>
       </div>
     </div>
     <div className="imagesWrap">
       <img src={imageThree} alt="picture3" />
       <div class='description'>
-        <p><Link to={"/smoothiebowl"}>Smoothie Bowl</Link></p>
+        <p><Link to={"/cookiedoughbar"}>Cookie Dough Bars</Link></p>
       </div>
     </div>
     <div className="imagesWrap">
-      <img src={bpPancake} alt="picture4" />
+      <img src={imageFour} alt="picture4" />
       <div class='description'>
-        <p><Link to={"/paleobanana"}>Banana Pancake</Link></p>
+        <p><Link to={"/almondchicken"}>Almond Chicken</Link></p>
       </div>
     </div>
     <div className="imagesWrap">
-      <img src={spToast} alt="picture5" />
+      <img src={imageFive} alt="picture5" />
       <div class='description'>
-        <p><Link to={"/sweetpotatotoast"}>Sweet Potato Toast</Link></p>
+        <p><Link to={"/salmon"}>Salmon and Asparagus</Link></p>
       </div>
     </div>
   </div>
