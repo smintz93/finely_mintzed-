@@ -1,35 +1,47 @@
 ---
-path: "/CauliflowerGnocchi"
-date: "August 1, 2019"
-title: "Cauliflower Gnocchi" 
+path: "/pestocauliflowergnocchi"
+date: "July 7, 2020"
+title: "Pesto Cauliflower Gnocchi and Veggies" 
 # image: ../../images/bpancake.jpg
 author: "@finelymintzed"
 ---
 
-![CauliflowerGnocchi](./imageOne.png)
+![CauliflowerGnocchi](./pestognocchi.jpg)
 
+### ~Serves 3
 
 ### Recipe 
 
-* ½ bag of cauliflower gnocchi (Trader Joe’s is my fave!)
-* 1 link pre-chicken sausage (frozen works too)
-* 1 zucchini
-* 1 bell pepper
-* 1 handful of spinach
-* 1 T avocado oil
-* 1 T olive oil
-* 1 t garlic powder
-* salt & pepper
+* 1 bag of cauliflower gnocchi (Trader Joe’s is my fave!)
 
+* 2-3 links pre-cooked chicken sausage (frozen works too), cut into half-moons
+
+* 1 zucchini, cut into half-moons
+
+* 1 head of broccoli, cut into florets
+
+* 1 handful of spinach
+
+* 2 T olive oil
+
+* 2-3 T vegan pesto
+
+* salt & pepper
 
 
 ### Instructions
 
-1. Heat up 1 T olive oil and add in ½ bag of cauliflower gnocchi (or more if you want more than 1 serving!)
-2. Let gnocchi cook without touch for about 5 minutes, then flip and cook the other side for another 5 minutes until all sides are crispy (total time should be about 10-12 minutes)
-3. Meanwhile, heat up 1 T avocado oil in a separate pan and add in sliced zucchini and bell pepper, along with garlic powder, salt and pepper
-4. Sauté veggies for about 5-7 minutes until softened, then add in frozen chicken sausage and cook until heated through, about another 5-7 minutes; add in spinach at the end to wilt
-5. Mix everything together and top with everything but the bagel seasoning.
-6. Enjoy!
+1.     Heat 1 T olive oil in a skillet and sauté broccoli and zucchini with salt and pepper for 10-15 minutes until cooked to your liking
 
+2.     Meanwhile heat another 1 T of oil in a separate skillet and add in bag of cauliflower gnocchi
+
+3.     Let gnocchi cook without touching for about 5 minutes, then flip and cook the other side for another 5 minutes or longer until all sides are crispy (total time should be about 10-15 minutes)
+
+4.     Heat a third skillet and add in chicken sausage pieces to brown (you can also move the veggies to the side and use the same skillet to brown the chicken sausage)
+
+5.     When veggies are cooked, add in a handful of spinach to wilt
+
+6.     Mix everything together and top with vegan pesto of choice
+
+7.     Enjoy!
 
