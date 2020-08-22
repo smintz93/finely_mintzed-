@@ -15,7 +15,7 @@ author: "@finelymintzed"
 
 * ¼ cup coconut oil, melted and cooled
 
-* 1 T vanilla extract
+* 1 t vanilla extract
 * ¼ cup creamy almond butter (should be pretty drippy, another nut butter could also work here!)
 
 * ½ cup coconut sugar
