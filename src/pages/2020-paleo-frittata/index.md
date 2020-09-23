@@ -1,6 +1,6 @@
 ---
 path: "/paleofrittata"
-date: "June 22, 2020"
+date: "June 23, 2020"
 title: "Paleo Frittata" 
 # image: ../../images/frittata.jpg
 author: "@finelymintzed"
