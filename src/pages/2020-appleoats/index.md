@@ -11,35 +11,35 @@ author: "@finelymintzed"
 
 #### Cauli-Oats
 
-· 1/3 cup old-fashioned oats
+- 1/3 cup old-fashioned oats
 
-· ¼ cup frozen cauliflower rice
+- ¼ cup frozen cauliflower rice
 
-· 1/3 cup almond milk
+- 1/3 cup almond milk
 
-· 1/3 cup water
+- 1/3 cup water
 
-· 1 t coconut sugar
+- 1 t coconut sugar
 
-· ½ t cinnamon
+- ½ t cinnamon
 
-· ½ t vanilla extract
+- ½ t vanilla extract
 
-· 1 T chia seeds
+- 1 T chia seeds
 
-· Pinch of sea salt
+- Pinch of sea salt
 
-· 1 T almond butter
+- 1 T almond butter
 
 #### Sauteed Apples
 
-· ½ t coconut oil
+- ½ t coconut oil
 
-· ½ apple, diced
+- ½ apple, diced
 
-· ½ t cinnamon
+- ½ t cinnamon
 
-· 1 t coconut sugar
+- 1 t coconut sugar
 
 ### Instructions
 
