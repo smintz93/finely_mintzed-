@@ -1,12 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
 
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  
 }
 body {
   margin: 0;
@@ -44,7 +42,6 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
-
 }
 a:active,
 a:hover {
@@ -201,9 +198,8 @@ html {
 *:after {
   box-sizing: inherit;
 }
-a{
-  color:#9588e1;
-  
+a {
+  color: #9588e1;
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
@@ -237,7 +233,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -270,7 +266,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
- font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -382,7 +378,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -636,47 +632,44 @@ pre tt:after {
 
 .menuGrid li a {
   color: #6d3480;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   font-weight: 800;
   /* transition: 0.2s; */
 }
 
-  .menuGrid li a:hover {
-    background: #6d3480;
-    color: rgb(244, 244, 244);
-    padding: 12px 30px;
-
-  }
+.menuGrid li a:hover {
+  background: #6d3480;
+  color: rgb(244, 244, 244);
+  padding: 12px 30px;
+}
 
 header h1 {
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   margin-bottom: 20px;
   color: white;
   text-decoration: none;
-  color: #9588e1
+  color: #9588e1;
 }
 
 .testLink {
   color: #9588e1;
   font-size: 54px;
- 
 }
 
 header p {
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   color: #9588e1;
   margin: 0px;
-  padding-top: 20px;  
+  padding-top: 20px;
 }
 
-
 header img {
-    height: 180px;
-    width: 500px;
-    margin-bottom: 0px;
+  height: 180px;
+  width: 500px;
+  margin-bottom: 0px;
 }
 
 .insta svg:hover {
@@ -685,7 +678,7 @@ header img {
 
 footer {
   color: 9588e1;
-  background-color:  rgb(244, 244, 244);;
+  background-color: rgb(244, 244, 244);
   padding: 20px;
 }
 
@@ -693,6 +686,15 @@ footer a {
   color: #9588e1;
 }
 
+/* Blog */
+ul.ais-Hits-list {
+  list-style: none;
+  margin-left: 0px;
+}
+
+li.ais-Hits-item {
+  border-bottom: 1px solid #dadada;
+}
 
 @media only screen and (max-width: 480px) {
   html {
@@ -701,13 +703,10 @@ footer a {
 
   header img {
     padding: 20px;
+  }
 
-}
-
-  
-.testLink {
-  color: #9588e1;
-  font-size: 46px;
- 
+  .testLink {
+    color: #9588e1;
+    font-size: 46px;
   }
 }

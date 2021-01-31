@@ -1,4 +1,34 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
+const BlogQuery = `{
+  allMarkdownRemark {
+    nodes {
+      id
+      frontmatter {
+        title
+        date
+        path
+
+      } 
+   
+      excerpt
+    }
+  }
+}
+  `
+
+const queries = [
+  {
+    query: BlogQuery,
+    transformer: ({ data }) => data.allMarkdownRemark.nodes,
+  },
+]
+module.exports = queries
+module.exports = {
+  plugins: ["gatsby-plugin-slug"],
+}
 module.exports = {
   siteMetadata: {
     title: `Finely Mintzed`,
@@ -39,6 +69,7 @@ module.exports = {
         ],
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -70,6 +101,15 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries,
+        chunkSize: 1000,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
