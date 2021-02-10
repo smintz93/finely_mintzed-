@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import PostPreview from "./post-preview"
+import PostPreview from "../templates/post-preview"
 import algoliasearch from "algoliasearch/lite"
 import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom"
 import { node } from "prop-types"

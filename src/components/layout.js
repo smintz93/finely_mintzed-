@@ -10,12 +10,12 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import Menu from './menu'
-import SideBar from './SideBar/sidebar'
+import Menu from "./menu"
+import SideBar from "./SideBar/sidebar"
 import "./layout.css"
-import sideBar from "./SideBar/sidebar";
+import sideBar from "./SideBar/sidebar"
 
-const Layout = ({ children }) => {
+const Layout = ({ location, title, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -32,25 +32,29 @@ const Layout = ({ children }) => {
       <Menu />
       {/* <SideBar /> */}
       <div
-        // style={{
-        //   margin: `0 auto`,
-        //   // maxWidth: 960,
-        //   padding: `0px 1.0875rem 1.45rem`,
-        //   paddingTop: 0,
-        // }}
+      // style={{
+      //   margin: `0 auto`,
+      //   // maxWidth: 960,
+      //   padding: `0px 1.0875rem 1.45rem`,
+      //   paddingTop: 0,
+      // }}
       >
         <main>{children}</main>
-  
       </div>
-      <footer style={{ color: 'rgba(213, 184, 255, 1);'}}>
+      <footer style={{ color: "rgba(213, 184, 255, 1);" }}>
         © {new Date().getFullYear()}, Built by
-          {` `}
-        <a style={{ color: 'rgba(213, 184, 255, 1);'}}href="https://www.sammintz.co">Sam Mintz</a>
+        {` `}
+        <a
+          style={{ color: "rgba(213, 184, 255, 1);" }}
+          href="https://www.sammintz.co"
+        >
+          Sam Mintz
+        </a>
       </footer>
     </>
   )
 }
- 
+
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
