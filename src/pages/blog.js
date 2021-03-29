@@ -3,16 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import PostPreview from "../templates/post-preview"
-import algoliasearch from "algoliasearch/lite"
-import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom"
 import { node } from "prop-types"
 import { faNotEqual } from "@fortawesome/free-solid-svg-icons"
-
-const searchClient = algoliasearch(
-  "319VB9IBNV",
-  "9d5369bf5f5a47df74cad2a0f25b0dff"
-)
 
 const BlogPage = ({ data }) => (
   <Layout>
