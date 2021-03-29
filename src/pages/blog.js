@@ -25,18 +25,7 @@ const BlogPage = ({ data }) => (
       }}
     >
       <h1>Recipes</h1>
-      <InstantSearch searchClient={searchClient} indexName="FinelyMintzSearch">
-        <SearchBox />
-        <Hits hitComponent={PostPreview} />
-      </InstantSearch>
-
-      {/* {data.allMarkdownRemark.edges.map(post => (
-        // <PostPreview
-        //   key={post.node.id}
-        //   title={post.node.frontmatter.title}
-        //   date={post.node.frontmatter.date}
-        //   path={post.node.frontmatter.path}
-        // />
+      {data.allMarkdownRemark.edges.map(post => (
         <div key={post.node.id}>
           <h3>{post.node.frontmatter.title}</h3>
           <small>posted by: {post.node.frontmatter.author}</small>
@@ -46,7 +35,7 @@ const BlogPage = ({ data }) => (
           <br />
           <hr />
         </div>
-      ))} */}
+      ))}
     </div>
   </Layout>
 )
