@@ -8,7 +8,7 @@ const About = () => (
     <div className="pageAboutWrapper">
       <h1>About</h1>
       <div class="aboutContainerMain">
-        <img className="JoBio" src={JoBioPic} />
+        {/* <img className="JoBio" src={JoBioPic} /> */}
         <div class="aboutTextMain">
           <p>
             Hello everyone! My name is Johanna Mintz and I am so excited to
